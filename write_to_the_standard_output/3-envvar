@@ -1,0 +1,4 @@
+#!/bin/bash
+stringa='Hello, my shell is '
+stringb=$stringa$SHELL
+echo $stringb
