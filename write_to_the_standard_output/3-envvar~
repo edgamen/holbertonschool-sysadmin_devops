@@ -1,4 +1,0 @@
-#!/bin/bash
-stringa='Hello, my name is '
-stringb=$stringa$SHELL
-echo $stringb
