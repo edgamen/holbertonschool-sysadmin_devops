@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "Hello world" > /tmp/0-fill_your_creation
+echo "Hello world" > /tmp/1-fill_your_creation
