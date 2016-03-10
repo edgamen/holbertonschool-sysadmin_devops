@@ -1,0 +1,2 @@
+#!/bin/bash
+ifconfig | grep HWaddr | egrep -o "([[:alnum:]]{2}:){5}[[:alnum:]]{2}"
