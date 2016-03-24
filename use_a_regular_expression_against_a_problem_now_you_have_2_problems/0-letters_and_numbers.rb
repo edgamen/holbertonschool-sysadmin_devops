@@ -1,4 +1,4 @@
 #!/usr/bin/ruby
 
-test = /\w+/.match(ARGV[0])
-puts(test)
+new_string = /\w+/.match(ARGV[0])
+puts(new_string)
