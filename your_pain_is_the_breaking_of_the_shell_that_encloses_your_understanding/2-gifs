@@ -1,0 +1,6 @@
+#!/bin/bash
+for path in `find . -type f -name '*.gif'`
+do
+    basename $path
+done
+
