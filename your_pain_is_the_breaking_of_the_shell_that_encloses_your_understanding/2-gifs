@@ -1,6 +1,2 @@
 #!/bin/bash
-for path in `find . -type f -name '*.gif'`
-do
-    basename $path
-done
-
+find . -type f -name '*gif' -exec basename {} .gif \;
