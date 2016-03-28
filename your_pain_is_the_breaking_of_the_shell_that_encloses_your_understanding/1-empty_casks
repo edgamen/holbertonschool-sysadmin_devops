@@ -1,6 +1,3 @@
 #!/bin/bash
-for path in `find . -empty`
-do
-    basename $path
-done
+find . -empty -exec basename {} \;
 
