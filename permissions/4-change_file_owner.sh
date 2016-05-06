@@ -1,3 +1,3 @@
 #!/bin/bash
 touch /tmp/permissions
-sudo chown nobody /tmp/permissions
+sudo chgrp staff /tmp/permissions
