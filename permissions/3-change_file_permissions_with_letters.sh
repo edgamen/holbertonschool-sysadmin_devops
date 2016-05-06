@@ -1,3 +1,3 @@
 #!/bin/bash
 touch /tmp/permissions
-chmod 755 /tmp/permissions
+chmod a=rw /tmp/permissions
