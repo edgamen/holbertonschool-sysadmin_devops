@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -AlR | grep '^d' | wc -l| tr -d [:blank:]
