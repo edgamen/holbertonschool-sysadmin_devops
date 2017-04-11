@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -v '^#' /etc/passwd | cut -d : -f 1,7 | sort
+grep -v '^#' /etc/passwd | cut -d : -f 1,6 | sort
